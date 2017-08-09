@@ -395,10 +395,6 @@ public class genpdf {
 	}
 	
 	
-	public static void main(String[] args) throws FileNotFoundException, DocumentException {
-		
-		//genpdf("KDHA/0108/17-18");
-
-	}
+	
 
 }

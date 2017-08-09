@@ -396,10 +396,6 @@ public class GeneratePdf {
 	}
 	
 	
-	public static void main(String[] args) throws FileNotFoundException, DocumentException {
-		
-		//genearatePDF("KDHA/0108/17-18");
-
-	}
+	
 
 }
