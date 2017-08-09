@@ -21,7 +21,7 @@ public class TestInvoice {
 		taxList.add(taxDescription);
 		
 		Invoice invoice =new Invoice("KDHA/0108/17-18", "1-Aug-2017", "1- Cartoon", "", "KDHA/0108/17-18", " ", " ", "1-Aug-2017", "VRL Transport", "Kundapur", "Komal Trading Corporation", "komal@vsnl.com", "27AABPB6207H1Z6", "AABPB6207H", "HDFC BANK", "01452560000971", "Borivali West & HDFC0000145", "Nakshatra Jewellers", "Jk Tower Shastri Circle,", "Kundapur", "Karnataka", "Karnataka", "29ABQPH2220Q1Z7", 1890.00F, 30, 12390.00F, 10500.00F, 1890.00F, tList, taxList);
-		GeneratePdf.genearatePDF(invoice);
+		GeneratePdf.genearatePDF1(invoice);
 		System.out.println("PDF Generated Successfully...!!!");
 		
 	}
