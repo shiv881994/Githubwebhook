@@ -22,6 +22,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import com.itextpdf.text.Chunk;
 
+//main Pdf Generator code
 public class GeneratePdf {
 
 	static Font infoFont = new Font(Font.FontFamily.TIMES_ROMAN, 10,Font.BOLD);
